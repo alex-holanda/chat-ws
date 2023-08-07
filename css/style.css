@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 16px 16px;
+}
+
+.non-auth-area {
+    display: none;
+}
+
+.auth-area {
+    display: none;
+}
+
+#chat-messages-div {
+    background-color: #eee;
+    height: 200px;
+    margin: 16px 0;
+    padding: 0 16px;
+    overflow-y: scroll;
+}
